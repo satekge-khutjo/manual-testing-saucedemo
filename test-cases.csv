@@ -1,0 +1,13 @@
+﻿Test Case ID,Test Scenario,Steps,Expected Result,Actual Result,Status,Priority,
+2,Valid Login,Enter valid username and password - Click Sign in,User is redirected to the home page,It redirects me to  Home page,Pass,,
+3,Invalid Password,Enter correct username and wrong password,Error message display ,"It displayed the correct error message ""Epic sadface: Username and password do not match any user in this service""",Pass,,
+4,Error cross button,"Enter invalid password, Error messsage appears. Click cross button to enter password",Password error message clears,Buttons near the password and username have no functions,fail,Remove the buttons the end of the username and password leaving the cross button at the end of the error message to reload page.,Only the cross button of the error message works
+4,Empty Login Fields,Click Sign in without entering anything,Validation message appears,"It displayed the correct error message ""Epic sadface: Username is required"" ",Pass,,The same should be done with the cross buttons 
+5,Add Item to Cart,"Click ""Add to Cart"" on any product",Cart count increases,The count on the cart increases,Pass,,
+6,Remove Item from Cart,Add item - Remove item,"Item removed, cart update",Cart update when removing item,Pass,,
+7,View Cart,Click cart icon,Correct items displayed,Correct items are displayed in cart,Pass,,
+8,Checkout Process Start,Add item - Click checkout,Checkout page loads,The checkout page loads ,Pass,,
+9,Checkout Form Validation,Leave fields emplty - Continue,Error messages shown,Error messages shown on the empty fields,Pass,,The same should be done with the cross buttons
+10,Complete purchase,Fill valid details - Finish,Order confirmation message,Confirmation page appears with checkout complete,Pass,,
+,Return to Home after completion,Click Back home on comfirmation page,Redirect to Home page,Returned to Home page,Pass,,
+11,Logout,Click menu - Logout,Redirect to login page,Redirected to login page,Pass,,
