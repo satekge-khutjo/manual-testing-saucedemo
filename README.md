@@ -4,6 +4,10 @@
 
 This project demonstrates manual testing of an eCommerce web application.
 
+## 🔗 Live Project Files
+- Test Cases: [https://github.com/satekge-khutjo/manual-testing-saucedemo/blob/main/test-cases.csv]
+- Bug Reports: [https://github.com/satekge-khutjo/manual-testing-saucedemo/blob/main/bug-reports(Bugs%20and%20observations).csv]
+
 ## 🔍 Scope
 
 * Login functionality
